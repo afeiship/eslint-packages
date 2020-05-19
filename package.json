@@ -1,0 +1,27 @@
+{
+  "name": "@feizheng/ushell-module-brew",
+  "version": "1.0.0",
+  "description": "Ushell module for mac brew.",
+  "main": "index.sh",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/afeiship/ushell-module-brew.git"
+  },
+  "keywords": [
+    "ushell",
+    "unix",
+    "shell",
+    "ushell-module-brew"
+  ],
+  "authors": [
+    "feizheng <1290657123@qq.com>"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/afeiship/ushell-module-brew/issues"
+  },
+  "homepage": "https://github.com/afeiship/ushell-module-brew",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
+}
