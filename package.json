@@ -1,6 +1,6 @@
 {
   "name": "@feizheng/ushell-module-brew",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Ushell module for mac brew.",
   "main": "index.sh",
   "repository": {
