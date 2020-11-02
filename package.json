@@ -1,26 +1,26 @@
 {
-  "name": "@feizheng/ushell-module-brew",
-  "version": "1.0.1",
-  "description": "Ushell module for mac brew.",
+  "name": "@feizheng/ushell-module-eslint",
+  "version": "1.0.0",
+  "description": "Ushell module for eslint.",
   "main": "index.sh",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/afeiship/ushell-module-brew.git"
+    "url": "git+https://github.com/afeiship/ushell-module-eslint.git"
   },
   "keywords": [
     "ushell",
     "unix",
     "shell",
-    "ushell-module-brew"
+    "ushell-module-eslint"
   ],
   "authors": [
     "feizheng <1290657123@qq.com>"
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/afeiship/ushell-module-brew/issues"
+    "url": "https://github.com/afeiship/ushell-module-eslint/issues"
   },
-  "homepage": "https://github.com/afeiship/ushell-module-brew",
+  "homepage": "https://github.com/afeiship/ushell-module-eslint",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   }

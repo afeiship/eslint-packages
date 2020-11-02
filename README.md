@@ -1,10 +1,7 @@
-# ushell-module-brew
-> Ushell module for mac brew.
+# ushell-module-eslint
+> Ushell module for eslint.
 
 ## installation
 ```shell
-npm i -S @feizheng/ushell-module-brew
+npm i -S @feizheng/ushell-module-eslint
 ```
-
-## resources
-- https://zhuanlan.zhihu.com/p/72251385?utm_source=qq
