@@ -1,5 +1,5 @@
 {
-  "name": "@feizheng/ushell-module-eslint",
+  "name": "@jswork/ushell-module-eslint",
   "version": "1.0.0",
   "description": "Ushell module for eslint.",
   "main": "index.sh",
