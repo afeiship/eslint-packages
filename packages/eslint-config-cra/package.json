@@ -1,6 +1,6 @@
 {
   "name": "@jswork/eslint-config-cra",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Eslint config for react app.",
   "homepage": "https://js.work",
   "main": "index.js",
