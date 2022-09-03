@@ -1,27 +1,26 @@
 {
-  "name": "@jswork/ushell-module-eslint",
-  "version": "1.0.0",
-  "description": "Ushell module for eslint.",
-  "main": "index.sh",
+  "name": "eslint-packages",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  },
+  "scripts": {
+    "start": "yarn --cwd packages/websites start",
+    "lerna:clean": "lerna clean",
+    "lerna:list": "lerna list",
+    "lerna:bootstrap": "lerna bootstrap",
+    "build": "lerna run build --since master --no-private",
+    "build:all": "lerna run build",
+    "publish": "npm run build && lerna publish --no-private"
+  },
+  "homepage": "https://js.work",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/afeiship/ushell-module-eslint.git"
-  },
-  "keywords": [
-    "ushell",
-    "unix",
-    "shell",
-    "ushell-module-eslint"
-  ],
-  "authors": [
-    "feizheng <1290657123@qq.com>"
-  ],
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/afeiship/ushell-module-eslint/issues"
-  },
-  "homepage": "https://github.com/afeiship/ushell-module-eslint",
-  "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
+    "url": "https://github.com/afeiship/eslint-packages.git"
   }
 }
