@@ -13,6 +13,8 @@ module.exports = {
         argsIgnorePattern: '^_',
       },
     ],
+    'react-hooks/exhaustive-deps': 'off',
+    "react/jsx-key": 2
   },
   globals: {
     nx: true,
